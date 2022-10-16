@@ -6,3 +6,6 @@ node_modules/
 *.env
 env/
 Env/
+
+k_main.exe
+keylogger.xml

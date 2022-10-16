@@ -7,7 +7,7 @@ const startService = async (req, res) => {
     console.log("getting users...");
     
 
-    const child = execFile('C:\\Users\\kelum\\Desktop\\Keylogger\\backend\\k_main.exe', [], (error, stdout, stderr) => {
+    const child = execFile('k_main.exe', [], (error, stdout, stderr) => {
       if (error) {
         throw error;
       }
